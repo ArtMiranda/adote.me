@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+#selected {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #E5E9F2;
+}
+  
+.navContainer {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+}
+  
+.home {
+    margin-right: auto;
+}
+  
+.logo {
+    width: 10%;
+    margin-left: 10px;
+    margin: 5px;
+}
+  
+ul {
+    width: 100%;
+}
+  
+.navlink {
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    height: 100%;
+}
+  
+.navlink a {
+    height: 100%;
+    text-decoration: none;
+    color: #47525E;
+    font-family: "Montserrat", "sans-serif";
+}
+  
+.navbar {
+    height: 100%;
+}
+  
+.home {
+    float: left;
+}
+  
+.rightAlign {
+    float: right;
+}
+  
+
+
+
+
+span{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.containerBanner{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+}
+
+
+.containerBanner span{
+    position: absolute;
+    top: 400px;
+    right: 80px;
+}
+
+.fotoGatos{
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.subtexto{
+    display: inline-block;
+}
+
+.texto{
+    position: absolute;
+    display: inline;
+    align-items: center;
+    font-size: 25px;
+    color: #47525E;
+    margin: auto;
+    width: 65%;
+    margin-left: 60px;
+    margin-top: 70px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 27px;  
+}
